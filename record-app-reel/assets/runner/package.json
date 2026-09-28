@@ -1,0 +1,14 @@
+{
+  "name": "app-reel",
+  "private": true,
+  "type": "module",
+  "description": "Storyboard-driven screen recorder. Self-contained: its own deps, so the host repo's manifest stays clean.",
+  "scripts": {
+    "record": "node --import tsx cli.ts"
+  },
+  "dependencies": {
+    "playwright": "^1.57.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

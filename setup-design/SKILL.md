@@ -46,7 +46,7 @@ Take the sections of [design-template.md](design-template.md) in order, one at a
   ```
 
 - **Stills out of deploys.** When deploys build from `git archive`, add `/design-screens export-ignore` to `.gitattributes` (the leading slash, no trailing one: `design-screens/` would match a folder of that name anywhere). Otherwise add `design-screens/` to the deploy's ignore file (`.dockerignore`, `.vercelignore`).
-- **The pointer**, in `CLAUDE.md` if it exists, else `AGENTS.md`, as a sub-block of `## Agent skills`. Update it in place if it is already there:
+- **The pointer**, in `CLAUDE.md` if it exists, else `AGENTS.md`. Update it in place if it is already there. When the file routes to docs through a table or a list, add an entry there pointing at `docs/agents/design.md`, for working a designer's request or a `design/*` branch. Otherwise add a sub-block of `## Agent skills`:
 
   ```markdown
   ### Design

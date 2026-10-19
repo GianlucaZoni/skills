@@ -2,6 +2,8 @@
 
 This repo's settings for `/design`: what a Design branch may touch, and how its work is shown and handed to a dev. `/setup-design` wrote it, and it can be edited directly.
 
+Design branches (`design/*`) never merge. A designer's request runs under `/design`, which only the designer can start: ask them to type it.
+
 ## Tokens
 
 - **Token file**: `<path>`. <What lives where in it.>

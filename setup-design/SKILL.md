@@ -59,6 +59,7 @@ Take the sections of [design-template.md](design-template.md) in order, one at a
 Tell the user what was written, and that each designer's machine needs `/design` and the skills it calls, installed once:
 
 ```bash
-npx skills add GianlucaZoni/skills -g -a claude-code -y -s design
-npx skills add mattpocock/skills -g -a claude-code -y -s grilling domain-modeling research
+cd ~
+npx skills add GianlucaZoni/skills -g -a claude-code universal -y -s design
+npx skills add mattpocock/skills -g -a claude-code universal -y -s grilling domain-modeling research
 ```

@@ -14,7 +14,8 @@ A designer with access to the repo wants to try something on the real site: chan
 2. Check that `grilling`, `domain-modeling` and `research` are in your available skills. If any is missing, stop and give the designer the command that installs them:
 
    ```bash
-   npx skills add mattpocock/skills -g -a claude-code -y -s grilling domain-modeling research
+   cd ~
+   npx skills add mattpocock/skills -g -a claude-code universal -y -s grilling domain-modeling research
    ```
 
 3. Read `docs/agents/issue-tracker.md` and `docs/agents/domain.md`, and follow them.
